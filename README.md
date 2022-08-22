@@ -30,7 +30,9 @@ In the initial model, the "EIN" and "NAME" columns are removed because their dat
 
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
+The neurons, hidden layers, and activation functions for our model can be seen in the image below. Non-linear activations were used in the hidden layers in an attempt to detect non-linear patterns. Two hidden layers were used in the initial model because the data did not appear to be overly complex. 
 
+![Model](Images/InitialModel.png)
 
 - Were you able to achieve the target model performance?
 - What steps did you take in your attempts to increase model performance?
