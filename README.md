@@ -64,4 +64,4 @@ My final attempt included changes to the units in the layers, adding an addition
 
 ## Summary
 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+Overall, all of the models performed with about 72% accuracy. While these are solid numbers, our goal for this project was to create a model that would produce an accuracy of 75%. Given its higher interpretiability and very high accuracy, it is recommended that a random forest model is used instead of a neural network. Also, the random forest model will help us to determine which variable are most important. This will, in turn, allow us to decide if additional columns should be dropped in our model to improve accuracy. 
