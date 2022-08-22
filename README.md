@@ -35,7 +35,32 @@ The neurons, hidden layers, and activation functions for our model can be seen i
 ![Model](Images/InitialModel.png)
 
 - Were you able to achieve the target model performance?
+
+The initial model was below the desired level of accuracy (see image below).
+
+![Initial](Images/InitialAcc.png)
+
+The following images show the accuracy levels of three attempts to optimize the model. The first two optimization attemts led to marginal improvements in accuracy. However, the third attempt led to a decline in model accuracy. 
+
+![Acc1](Images/Op1Acc.png)
+![Acc2](Images/Op2Acc.png)
+![Acc2](Images/Op3Acc.png)
+
 - What steps did you take in your attempts to increase model performance?
+
+In the first optimization attempt, I dropped the "STATUS" column and increased the bucket cutoff from 200 to 600. 
+
+![DropStatus](Images/DropStatus.png)
+![BucketChange1](Images/BucketChange.png)
+
+My next attempt included an increase to the bucket cutoff for "CLASSIFICATION" from 800 to 2000. Additionally, I adjusted the units in each hidden layer.
+
+![Bucket2](Images/BucketChange2.png)
+![Layer1](Images/LayerChange1.png)
+
+My final attempt included changes to the units in the layers, adding an additional hidden layer, and changing the activation for the output layer. 
+
+![Layer2](Images/LayerChange2.png)
 
 ## Summary
 
